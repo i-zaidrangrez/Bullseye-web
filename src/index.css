@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Smooch+Sans:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-Smooch : "Smooch Sans", sans-serif;
+  --font-Oops : "Black Ops One", system-ui;
+}
