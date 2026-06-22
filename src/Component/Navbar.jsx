@@ -24,7 +24,7 @@ const Navbar = () => {
             Bullseye
         </h1>
         <nav className='flex font-Smooch text-3xl gap-10 font-bold'>
-            <h4 className='hover:text-red-500 hover:-mt-1 duration-200 cursor-pointer '>Profile</h4>
+            <h4 className='hover:text-red-500 hover:-mt-1 duration-200 cursor-pointer '>Profil</h4>
             <h4 className='hover:text-red-500 hover:-mt-1 duration-200 cursor-pointer '>Crimes</h4>
             <h4 className='hover:text-red-500 hover:-mt-1 duration-200 cursor-pointer '>Ability</h4>
             <h4 className='hover:text-red-500 hover:-mt-1 duration-200 cursor-pointer '>Intrest</h4>
