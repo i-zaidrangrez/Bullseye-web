@@ -4,9 +4,11 @@ import HeroText from '../components/Home/HeroText'
 import HeroBottom from '../components/Home/HeroBottom'
 import Logo from '../components/Home/Logo'
 import Menu from '../components/Home/Menu'
+import Page from '../components/common/Page'
 
 const Home = () => {
   return (
+
     <div className='h-screen relative overflow-hidden'>
         <div className='relative'>
              <Video/>

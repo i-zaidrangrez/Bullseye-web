@@ -8,7 +8,7 @@ const Menu = () => {
         gsap.from(MenuRef.current , {
             opacity:0,
             duration :1,
-            delay:3.5
+            delay:3.8
         })
     })
   return (

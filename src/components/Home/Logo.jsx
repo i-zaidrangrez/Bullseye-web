@@ -8,7 +8,7 @@ const Logo = () => {
         gsap.from(LogoRef.current.children , {
             opacity:0,
             duration :1,
-            delay:3.5
+            delay:3.8
         })
     })
   return (
