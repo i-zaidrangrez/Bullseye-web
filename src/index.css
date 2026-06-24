@@ -5,3 +5,7 @@
   --font-Smooch : "Smooch Sans", sans-serif;
   --font-Oops : "Black Ops One", system-ui;
 }
+
+body{
+  background: #000;
+}
