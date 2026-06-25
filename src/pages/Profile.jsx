@@ -20,6 +20,7 @@ const Profile = () => {
     'https://i.pinimg.com/736x/c1/f2/ef/c1f2ef0936eda772b2e4b6005e94961e.jpg',
     'https://i.pinimg.com/736x/64/32/1a/64321ab0be90e0d54325f2b37899ef4b.jpg',
     'https://i.pinimg.com/736x/2f/18/4e/2f184e55fa6609f4f831af7b042d4cff.jpg',
+    'https://i.pinimg.com/1200x/b0/c0/f5/b0c0f54c5d91e6494eb3d39491593043.jpg',
   ]
   gsap.registerPlugin(ScrollTrigger)
 
@@ -28,7 +29,7 @@ const Profile = () => {
       scrollTrigger:{
         trigger : ImageDivRef.current,
         start : 'top 32%',
-        end : 'top -25%',
+        end : 'top -35%',
         pin : true,
         onUpdate:(elem)=>{
           const imageIndex = Math.round(elem.progress * (Images.length - 1))
