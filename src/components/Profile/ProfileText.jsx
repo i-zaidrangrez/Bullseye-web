@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileText = () => {
   return (
-    <div className="h-screen text-white font-Oops relative z-20">
+    <div className="h-screen text-black font-Oops relative z-20">
         <div className="text-[30vh] absolute top-[10%] right-[10%]">
           <span className="text-red-600">AIM</span> TRUE
         </div>

@@ -12,7 +12,10 @@ const Menu = () => {
         })
     })
   return (
-    <div ref={MenuRef} className='text-white text-xl font-bold px-2 rounded-2xl cursor-pointer hover:bg-red-600'>Menu</div>
+    
+    <div>
+      <div ref={MenuRef} onMouseEnter={(e)=>{e.target.style.backgroundColor = "red"}} onMouseLeave={(e)=>{e.target.style.backgroundColor = ""}} className='text-white text-xl font-bold px-2 rounded-2xl cursor-pointer'>Menu</div>
+    </div>
   )
 }
 

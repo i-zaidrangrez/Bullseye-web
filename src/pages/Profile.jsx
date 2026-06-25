@@ -31,6 +31,7 @@ const Profile = () => {
         start : 'top 32%',
         end : 'top -35%',
         pin : true,
+        scrub :1,
         onUpdate:(elem)=>{
           const imageIndex = Math.round(elem.progress * (Images.length - 1))
           ImageRef.current.src = Images[imageIndex]
